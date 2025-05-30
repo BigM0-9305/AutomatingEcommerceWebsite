@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-30T15:35:30 IST" name="Default suite" finished-at="2025-05-30T15:42:26 IST" duration-ms="416943">
+    <groups>
+    </groups>
+    <test started-at="2025-05-30T15:35:30 IST" name="Default test" finished-at="2025-05-30T15:42:26 IST" duration-ms="416943">
+      <class name="com.selenium.practice.test.start_to_end.StartToEnd">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.selenium.practice.test.start_to_end.StartToEnd@639c2c1d]" started-at="2025-05-30T15:35:30 IST" name="launchApplication" finished-at="2025-05-30T15:35:44 IST" duration-ms="14204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="endToEndTestCase(java.lang.String)[pri:0, instance:com.selenium.practice.test.start_to_end.StartToEnd@639c2c1d]" started-at="2025-05-30T15:35:44 IST" name="endToEndTestCase" data-provider="getData" finished-at="2025-05-30T15:36:59 IST" duration-ms="75492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ivanka tame]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndTestCase -->
+        <test-method is-config="true" signature="browserKiller()[pri:0, instance:com.selenium.practice.test.start_to_end.StartToEnd@639c2c1d]" started-at="2025-05-30T15:36:59 IST" name="browserKiller" finished-at="2025-05-30T15:37:00 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserKiller -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.selenium.practice.test.start_to_end.StartToEnd@639c2c1d]" started-at="2025-05-30T15:37:00 IST" name="launchApplication" finished-at="2025-05-30T15:37:02 IST" duration-ms="2563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="searchedProductsTestCase(java.lang.String)[pri:0, instance:com.selenium.practice.test.start_to_end.StartToEnd@639c2c1d]" started-at="2025-05-30T15:37:02 IST" name="searchedProductsTestCase" data-provider="getData" finished-at="2025-05-30T15:38:36 IST" duration-ms="93581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ivanka tame]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchedProductsTestCase -->
+        <test-method is-config="true" signature="browserKiller()[pri:0, instance:com.selenium.practice.test.start_to_end.StartToEnd@639c2c1d]" started-at="2025-05-30T15:38:36 IST" name="browserKiller" finished-at="2025-05-30T15:38:36 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserKiller -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.selenium.practice.test.start_to_end.StartToEnd@639c2c1d]" started-at="2025-05-30T15:38:36 IST" name="launchApplication" finished-at="2025-05-30T15:38:48 IST" duration-ms="11683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="tryingToOrderAfterRegistering()[pri:0, instance:com.selenium.practice.test.start_to_end.StartToEnd@639c2c1d]" started-at="2025-05-30T15:38:48 IST" name="tryingToOrderAfterRegistering" finished-at="2025-05-30T15:40:30 IST" duration-ms="102428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryingToOrderAfterRegistering -->
+        <test-method is-config="true" signature="browserKiller()[pri:0, instance:com.selenium.practice.test.start_to_end.StartToEnd@639c2c1d]" started-at="2025-05-30T15:40:30 IST" name="browserKiller" finished-at="2025-05-30T15:40:30 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserKiller -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.selenium.practice.test.start_to_end.StartToEnd@639c2c1d]" started-at="2025-05-30T15:40:30 IST" name="launchApplication" finished-at="2025-05-30T15:40:43 IST" duration-ms="13066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="tryingToOrderWithoutRegisteringTestCase()[pri:0, instance:com.selenium.practice.test.start_to_end.StartToEnd@639c2c1d]" started-at="2025-05-30T15:40:43 IST" name="tryingToOrderWithoutRegisteringTestCase" finished-at="2025-05-30T15:42:26 IST" duration-ms="102752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryingToOrderWithoutRegisteringTestCase -->
+        <test-method is-config="true" signature="browserKiller()[pri:0, instance:com.selenium.practice.test.start_to_end.StartToEnd@639c2c1d]" started-at="2025-05-30T15:42:26 IST" name="browserKiller" finished-at="2025-05-30T15:42:26 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserKiller -->
+      </class> <!-- com.selenium.practice.test.start_to_end.StartToEnd -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

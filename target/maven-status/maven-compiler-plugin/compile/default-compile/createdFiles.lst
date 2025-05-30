@@ -1,0 +1,13 @@
+com\selenium\practice\test\login\LoginPage.class
+com\selenium\practice\test\products\ProductsPage.class
+com\selenium\practice\test\contact\ContactUsPage.class
+com\selenium\practice\test\tests\TestCasesPage.class
+com\selenium\practice\test\cart\CartPage.class
+com\selenium\practice\test\meta\BaseCode.class
+com\selenium\practice\test\payment\CardDetailsPage.class
+com\selenium\practice\test\functional\EndToEndTest.class
+com\selenium\practice\test\meta\ExtentReporterClass.class
+com\selenium\practice\test\confirmation\OrderConfirmationPage.class
+com\selenium\practice\test\sign_up\SignUpTest.class
+com\selenium\practice\test\functional\ClassicEndToEnd.class
+com\selenium\practice\test\checkout\CheckOutPage.class
