@@ -14,6 +14,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '17'
+          distribution: 'temurin'  # ✅ was missing now fixed
 
       - name: Cache Maven dependencies
         uses: actions/cache@v3
@@ -24,3 +25,4 @@ jobs:
 
       - name: Run tests with Maven
         run: mvn clean test
+
