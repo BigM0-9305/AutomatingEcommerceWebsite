@@ -1,0 +1,40 @@
+# ========== Build and Output Directories ==========
+/target/
+/test-output/
+/TestReport/
+
+# ========== InvoiceDownloads ==========
+InvoiceDownloads/*
+!InvoiceDownloads/.gitkeep  # Keep folder tracked but ignore contents
+
+target/*
+!target/.gitkeep
+
+TestReport/*
+!TestReport/.gitkeep
+
+# ========== Logs, Reports, and Generated Files ==========
+*.log
+*.class           # Compiled bytecode (sometimes appears outside target/)
+*.xml
+*.html
+
+# ========== IDE/Editor Metadata ==========
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VSCode
+.vscode/
+
+# ========== OS-specific Files ==========
+.DS_Store         # macOS
+Thumbs.db         # Windows
+ 

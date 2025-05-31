@@ -106,7 +106,7 @@ public class CheckOutPage extends BaseCode{
 			
 		}
 		
-		int totalPriceValue = Integer.parseInt(totalPrice.getLast().getText().split(" ")[1]);
+		int totalPriceValue = Integer.parseInt(totalPrice.get(totalPrice.size() - 1).getText().split(" ")[1]);
 		
 		Assert.assertEquals(sum, totalPriceValue);
 		
