@@ -122,7 +122,6 @@ public class StartToEnd extends TestComponentsClass{
 		
 		confirmationPage.orderConfirmationAndLogoutMethod();
 		
-		
 	}
 	
 	@DataProvider

@@ -476,7 +476,7 @@ public class BaseCode {
 	
 	public void iframeAddRemover() throws InterruptedException {
 		
-		Thread.sleep(3000);
+		Thread.sleep(3500);
 		
 		List<WebElement> iframeAdList = driver.findElements(By.cssSelector("div.grippy-host"));
 		
@@ -485,7 +485,7 @@ public class BaseCode {
 			iframeAdList.get(0).click();
 		}
 		
-		Thread.sleep(2000);
+		Thread.sleep(2500);
 	}
 	
 	public HashMap<String, String> getCardDetails(String user) throws IOException, SQLException {

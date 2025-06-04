@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.selenium.practice.test.start_to_end.StartToEnd">
+      <class name="com.selenium.practice.test.cucumbertests.TestNGRunnerForProductOrdering">
         <methods>
-          <include name="endToEndTestCase" invocation-numbers="0"/>
-          <include name="launchApplication"/>
-          <include name="browserKiller"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="3"/>
         </methods>
-      </class> <!-- com.selenium.practice.test.start_to_end.StartToEnd -->
+      </class> <!-- com.selenium.practice.test.cucumbertests.TestNGRunnerForProductOrdering -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

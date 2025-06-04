@@ -1,75 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-30T15:35:30 IST" name="Default suite" finished-at="2025-05-30T15:42:26 IST" duration-ms="416943">
+  <suite started-at="2025-06-04T14:18:54 IST" name="Default suite" finished-at="2025-06-04T14:30:59 IST" duration-ms="724608">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.selenium.practice.test.cucumbertests.TestNGRunnerForProductOrdering@26794848]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-05-30T15:35:30 IST" name="Default test" finished-at="2025-05-30T15:42:26 IST" duration-ms="416943">
-      <class name="com.selenium.practice.test.start_to_end.StartToEnd">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.selenium.practice.test.start_to_end.StartToEnd@639c2c1d]" started-at="2025-05-30T15:35:30 IST" name="launchApplication" finished-at="2025-05-30T15:35:44 IST" duration-ms="14204" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="endToEndTestCase(java.lang.String)[pri:0, instance:com.selenium.practice.test.start_to_end.StartToEnd@639c2c1d]" started-at="2025-05-30T15:35:44 IST" name="endToEndTestCase" data-provider="getData" finished-at="2025-05-30T15:36:59 IST" duration-ms="75492" status="PASS">
+    <test started-at="2025-06-04T14:18:54 IST" name="Default test" finished-at="2025-06-04T14:30:59 IST" duration-ms="724608">
+      <class name="com.selenium.practice.test.cucumbertests.TestNGRunnerForProductOrdering">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.selenium.practice.test.cucumbertests.TestNGRunnerForProductOrdering@26794848]" started-at="2025-06-04T14:18:54 IST" name="setUpClass" finished-at="2025-06-04T14:18:55 IST" duration-ms="440" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ivanka tame]]>
+                <![CDATA[org.testng.TestRunner@b6d5ccc]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- endToEndTestCase -->
-        <test-method is-config="true" signature="browserKiller()[pri:0, instance:com.selenium.practice.test.start_to_end.StartToEnd@639c2c1d]" started-at="2025-05-30T15:36:59 IST" name="browserKiller" finished-at="2025-05-30T15:37:00 IST" duration-ms="392" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserKiller -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.selenium.practice.test.start_to_end.StartToEnd@639c2c1d]" started-at="2025-05-30T15:37:00 IST" name="launchApplication" finished-at="2025-05-30T15:37:02 IST" duration-ms="2563" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="searchedProductsTestCase(java.lang.String)[pri:0, instance:com.selenium.practice.test.start_to_end.StartToEnd@639c2c1d]" started-at="2025-05-30T15:37:02 IST" name="searchedProductsTestCase" data-provider="getData" finished-at="2025-05-30T15:38:36 IST" duration-ms="93581" status="PASS">
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.selenium.practice.test.cucumbertests.TestNGRunnerForProductOrdering@26794848]" started-at="2025-06-04T14:18:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-04T14:20:23 IST" duration-ms="87876" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ivanka tame]]>
+                <![CDATA["Trying to order products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product Ordering Functionality"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchedProductsTestCase -->
-        <test-method is-config="true" signature="browserKiller()[pri:0, instance:com.selenium.practice.test.start_to_end.StartToEnd@639c2c1d]" started-at="2025-05-30T15:38:36 IST" name="browserKiller" finished-at="2025-05-30T15:38:36 IST" duration-ms="223" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.selenium.practice.test.cucumbertests.TestNGRunnerForProductOrdering@26794848]" started-at="2025-06-04T14:20:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-04T14:21:40 IST" duration-ms="77777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Trying to order products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product Ordering Functionality"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserKiller -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.selenium.practice.test.start_to_end.StartToEnd@639c2c1d]" started-at="2025-05-30T15:38:36 IST" name="launchApplication" finished-at="2025-05-30T15:38:48 IST" duration-ms="11683" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.selenium.practice.test.cucumbertests.TestNGRunnerForProductOrdering@26794848]" started-at="2025-06-04T14:21:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-04T14:23:04 IST" duration-ms="83523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Trying to order products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product Ordering Functionality"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="tryingToOrderAfterRegistering()[pri:0, instance:com.selenium.practice.test.start_to_end.StartToEnd@639c2c1d]" started-at="2025-05-30T15:38:48 IST" name="tryingToOrderAfterRegistering" finished-at="2025-05-30T15:40:30 IST" duration-ms="102428" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.selenium.practice.test.cucumbertests.TestNGRunnerForProductOrdering@26794848]" started-at="2025-06-04T14:23:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-04T14:25:00 IST" duration-ms="115814" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Trying to order products without registering"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product Ordering Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <input type="checkbox" name="optin" id="optin" value="1"> is not clickable at point (295, 705). Other element would receive the click: <iframe id="aswift_1" name="aswift_1" browsingtopics="true" style="width: 1521px !important; height: 217px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1521" height="217" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/html/r20250602/r20190131/zrt_lookup_fy2021.html#RS-0-&amp;adk=1812271801&amp;client=ca-pub-1677597403311019&amp;fa=1&amp;ifi=2&amp;uci=a!2&amp;btvi=1" data-google-container-id="a!2" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="COWNtrSy140DFV0BgwMdnQ4xDw" data-load-complete="true"></iframe>
+  (Session info: chrome=137.0.7151.56)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8329b38f820751ac036aee53004add04, clickElement {id=f.E6FE8DADD5D12F32C38F70145BCA0A82.d.A76B5E9455B90F1F9C3FD5FF07E1C968.e.264}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\MRSha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56668}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56668/devtoo..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8329b38f820751ac036aee53004add04)] -> css selector: input#optin]
+Session ID: 8329b38f820751ac036aee53004add04]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="checkbox" name="optin" id="optin" value="1"> is not clickable at point (295, 705). Other element would receive the click: <iframe id="aswift_1" name="aswift_1" browsingtopics="true" style="width: 1521px !important; height: 217px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1521" height="217" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/html/r20250602/r20190131/zrt_lookup_fy2021.html#RS-0-&amp;adk=1812271801&amp;client=ca-pub-1677597403311019&amp;fa=1&amp;ifi=2&amp;uci=a!2&amp;btvi=1" data-google-container-id="a!2" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="COWNtrSy140DFV0BgwMdnQ4xDw" data-load-complete="true"></iframe>
+  (Session info: chrome=137.0.7151.56)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8329b38f820751ac036aee53004add04, clickElement {id=f.E6FE8DADD5D12F32C38F70145BCA0A82.d.A76B5E9455B90F1F9C3FD5FF07E1C968.e.264}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\MRSha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56668}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56668/devtoo..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8329b38f820751ac036aee53004add04)] -> css selector: input#optin]
+Session ID: 8329b38f820751ac036aee53004add04
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+at com.selenium.practice.test.sign_up.SignUpTest.signingUp(SignUpTest.java:149)
+at com.selenium.practice.test.stepdefinitions.StepDefinitionsForOrderingProductsTestCase.going_to_cart_and_checking_out_without_registering(StepDefinitionsForOrderingProductsTestCase.java:90)
+at ✽.I go to the cart page and try to checkout without registering, I am asked to register, so I go register(file:///C:/Users/MRSha/selenium-workspace/AutomatingECommerceWebsite/src/test/java/com/selenium/practice/test/cucumbertests/OrderingProductsTestCases.feature:43)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tryingToOrderAfterRegistering -->
-        <test-method is-config="true" signature="browserKiller()[pri:0, instance:com.selenium.practice.test.start_to_end.StartToEnd@639c2c1d]" started-at="2025-05-30T15:40:30 IST" name="browserKiller" finished-at="2025-05-30T15:40:30 IST" duration-ms="262" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.selenium.practice.test.cucumbertests.TestNGRunnerForProductOrdering@26794848]" started-at="2025-06-04T14:25:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-04T14:26:28 IST" duration-ms="87915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Trying to order products after registering"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product Ordering Functionality"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserKiller -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.selenium.practice.test.start_to_end.StartToEnd@639c2c1d]" started-at="2025-05-30T15:40:30 IST" name="launchApplication" finished-at="2025-05-30T15:40:43 IST" duration-ms="13066" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.selenium.practice.test.cucumbertests.TestNGRunnerForProductOrdering@26794848]" started-at="2025-06-04T14:26:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-04T14:27:53 IST" duration-ms="85636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Trying to order Searched products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product Ordering Functionality"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="tryingToOrderWithoutRegisteringTestCase()[pri:0, instance:com.selenium.practice.test.start_to_end.StartToEnd@639c2c1d]" started-at="2025-05-30T15:40:43 IST" name="tryingToOrderWithoutRegisteringTestCase" finished-at="2025-05-30T15:42:26 IST" duration-ms="102752" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.selenium.practice.test.cucumbertests.TestNGRunnerForProductOrdering@26794848]" started-at="2025-06-04T14:27:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-04T14:29:29 IST" duration-ms="95542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Trying to order Searched products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product Ordering Functionality"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tryingToOrderWithoutRegisteringTestCase -->
-        <test-method is-config="true" signature="browserKiller()[pri:0, instance:com.selenium.practice.test.start_to_end.StartToEnd@639c2c1d]" started-at="2025-05-30T15:42:26 IST" name="browserKiller" finished-at="2025-05-30T15:42:26 IST" duration-ms="242" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.selenium.practice.test.cucumbertests.TestNGRunnerForProductOrdering@26794848]" started-at="2025-06-04T14:29:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-04T14:30:59 IST" duration-ms="90029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Trying to order Searched products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product Ordering Functionality"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserKiller -->
-      </class> <!-- com.selenium.practice.test.start_to_end.StartToEnd -->
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.selenium.practice.test.cucumbertests.TestNGRunnerForProductOrdering@26794848]" started-at="2025-06-04T14:30:59 IST" name="tearDownClass" finished-at="2025-06-04T14:30:59 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.selenium.practice.test.cucumbertests.TestNGRunnerForProductOrdering -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
